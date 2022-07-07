@@ -1,3 +1,6 @@
+* {
+    font-family: 'Robot', sans-serif;
+}
 /******** nav ********/
 
 header {
@@ -8,6 +11,7 @@ header {
 
 .logo {
     margin-left: 5%;
+    font-size: 24px;
 }
 
 .navlinks {
@@ -55,6 +59,73 @@ h1 {
 }
 
 /******** section two ********/
+
+.sectwo h2 {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2973;
+}
+
+.sectwoimgcon {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0%;
+}
+
+.sectwo img {
+    border: 4px solid #3882f6 ;
+    border-radius: 5%;
+}
+
+.imgtextcont{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectwoimgtext {
+    padding: 0% 20%;
+}
+
+/******** section three (quote) ********/
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quotecont {
+    display: flex;
+    flex-direction: column;
+}
+
+.quotetext {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2973;
+}
+
+.quote span {
+    font-size: 36px;
+    font-weight: 700;
+    font-style: italic;
+    color: #1f2973;
+    text-align: end;
+    padding-right: 25%;
+    padding-bottom: 5%;
+}
+/******** link style ********/
 a {
     text-decoration: none;
     color: #ffffff;
